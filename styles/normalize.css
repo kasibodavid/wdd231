@@ -1,0 +1,12 @@
+/* normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+/* Add the actual normalize content if required or import it from CDN */
+html {
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+}
+
+/* Add other elements here if needed… */
