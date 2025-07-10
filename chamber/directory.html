@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Directory page for the Lagos Chamber of Commerce" />
+  <meta name="author" content="Kasibo David" />
+  <meta property="og:title" content="Lagos Chamber of Commerce Directory" />
+  <meta property="og:description" content="Connect with top businesses and opportunities in Lagos." />
+  <meta property="og:image" content="images/preview.jpg" />
+  <meta property="og:url" content="https://your-github-username.github.io/wdd231/chamber/directory.html" />
+  <title>Lagos Chamber Directory</title>
+  <link rel="icon" href="images/favicon.ico" type="image/x-icon" />
+  <link rel="stylesheet" href="styles/normalize.css" />
+  <link rel="stylesheet" href="styles/styles.css" />
+</head>
+<body>
+  <header>
+    <h1>Lagos Chamber of Commerce</h1>
+    <nav>
+      <ul>
+        <li><a href="#index.html">Home</a></li>
+        <li><a href="directory.html" class="active">Directory</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="view-toggle">
+      <button id="gridBtn">Grid View</button>
+      <button id="listBtn">List View</button>
+    </section>
+
+    <section class="directory grid" id="directory">
+      <!-- Member cards will be injected here -->
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; <span id="year"></span> Lagos Chamber of Commerce | Kasibo David | WDD 231</p>
+    <p>Last Modified: <span id="lastModified"></span></p>
+  </footer>
+
+  <script src="scripts/directory.js"></script>
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+    document.getElementById("lastModified").textContent = document.lastModified;
+  </script>
+</body>
+</html>

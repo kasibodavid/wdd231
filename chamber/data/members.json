@@ -1,0 +1,65 @@
+[
+  {
+    "name": "BrightTech Solutions",
+    "address": "123 Innovation Rd, Lagos",
+    "phone": "+234-801-234-5678",
+    "website": "https://brighttech.ng",
+    "image": "brighttech.png",
+    "membership": 3,
+    "description": "Leading IT solutions provider in West Africa."
+  },
+  {
+    "name": "Green Farms",
+    "address": "45 Agro Way, Ikeja",
+    "phone": "+234-802-456-7890",
+    "website": "https://greenfarms.ng",
+    "image": "greenfarms.png",
+    "membership": 2,
+    "description": "Sustainable agriculture and food distribution."
+  },
+  {
+    "name": "Ultimate Building Ltd.",
+    "address": "88 Construction Blvd, Lagos",
+    "phone": "+234-803-111-2233",
+    "website": "https://ultimatebuilding.ng",
+    "image": "builders.png",
+    "membership": 1,
+    "description": "Civil engineering and building projects."
+  },
+  {
+    "name": "EcoBank",
+    "address": "12 Finance Street, Victoria Island",
+    "phone": "+234-805-345-1234",
+    "website": "https://ecobank.com",
+    "image": "ecobank.png",
+    "membership": 3,
+    "description": "Top-tier banking and financial services."
+  },
+  {
+    "name": "Clean Technology Hub",
+    "address": "7 Tech Park, Yaba",
+    "phone": "+234-809-876-5432",
+    "website": "https://cleantechnologyhub.ng",
+    "image": "cleantech.png",
+    "membership": 2,
+    "description": "Community space for tech startups and developers."
+  },
+  {
+    "name": "MegaMart SuperMarket",
+    "address": "6 Brown street, Gbagada",
+    "phone": "+234-807-654-3210",
+    "website": "https://megamart.ng",
+    "image": "megamart.png",
+    "membership": 1,
+    "description": "Retail superstore chain across Nigeria."
+  },
+  {
+    "name": "NexGen Energy",
+    "address": "16 Power Lane, Lagos",
+    "phone": "+234-806-789-4321",
+    "website": "https://nexgenenergy.ng",
+    "image": "nexgen.png",
+    "membership": 3,
+    "description": "Innovative renewable energy provider."
+  }
+]
