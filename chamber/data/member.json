@@ -1,0 +1,44 @@
+{
+  "members": [
+    {
+      "name": "BrightTech Solutions",
+      "logo": "images/brighttech.png",
+      "phone": "+234-801-234-5678",
+      "address": "123 Innovation Rd, Lagos",
+      "website": "https://brighttech.ng",
+      "membership": "Gold"
+    },
+    {
+      "name": "Green Farms",
+      "logo": "images/greenfarms.png",
+      "phone": "+234-802-456-7890",
+      "address": "45 Agro Way, Ikeja",
+      "website": "https://greenfarms.ng",
+      "membership": "Silver"
+    },
+    {
+      "name": "Clean Technology Hub",
+      "logo": "images/cleantech.png",
+      "phone": "+234-809-876-5432",
+      "address": "7 Tech Park, Yaba",
+      "website": "https://cleantechnologyhub.ng",
+      "membership": "Bronze"
+    },
+    {
+      "name": "NexGen Energy",
+      "logo": "images/nexgen.png",
+      "phone": "+234-806-789-4321",
+      "address": "16 Power Lane, Lagos",
+      "website": "https://nexgenenergy.ng",
+      "membership": "Gold"
+    },
+    {
+      "name": "Ultimate Building Ltd.",
+      "logo": "images/builders.png",
+      "phone": "+234-803-111-2233",
+      "address": "88 Construction Blvd, Lagos",
+      "website": "https://ultimatebuilding.ng",
+      "membership": "Silver"
+    }
+  ]
+}
