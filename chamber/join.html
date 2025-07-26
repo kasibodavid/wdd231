@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Join Chamber</title>
+  <link rel="stylesheet" href="styles/base.css" />
+  <link rel="stylesheet" href="styles/join.css" />
+</head>
+<body>
+  <header>
+    <h1>Join Our Chamber</h1>
+    <!-- Your site-wide navigation here -->
+  </header>
+
+  <main>
+    <form method="get" action="thankyou.html">
+      <label>
+        First Name:
+        <input type="text" name="fname" required title="First Name" autocomplete="given-name">
+      </label>
+      <label>
+        Last Name:
+        <input type="text" name="lname" required title="Last Name" autocomplete="family-name">
+      </label>
+      <label>
+        Organization Title:
+        <input type="text" name="orgtitle" title="Organizational Title" autocomplete="organization-title"
+          pattern="[A-Za-z\s\-]{7,}">
+      </label>
+      <label>
+        Email:
+        <input type="email" name="email" required title="Email Address" autocomplete="email" placeholder="example@email.com">
+      </label>
+      <label>
+        Mobile Phone:
+        <input type="tel" name="phone" required title="Mobile Phone" autocomplete="tel">
+      </label>
+      <label>
+        Business Name:
+        <input type="text" name="orgname" required title="Business Name" autocomplete="organization">
+      </label>
+      <label>
+        Membership Level:
+        <select name="membership" title="Membership Level">
+          <option value="np">NP Membership</option>
+          <option value="bronze">Bronze</option>
+          <option value="silver">Silver</option>
+          <option value="gold">Gold</option>
+        </select>
+      </label>
+      <label>
+        Business Description:
+        <textarea name="description" title="Business Description"></textarea>
+      </label>
+      <input type="hidden" name="timestamp" id="timestamp" />
+      <input type="submit" value="Apply Now">
+    </form>
+
+    <section class="membership-cards">
+      <div class="membership-card" id="np-card">
+        <h3>NP Membership</h3>
+        <p>No fee. Basic listing and event invites.</p>
+        <a href="#np-modal">View Benefits</a>
+      </div>
+      <div class="membership-card" id="bronze-card">
+        <h3>Bronze Membership</h3>
+        <p>Extra visibility and event access.</p>
+        <a href="#bronze-modal">View Benefits</a>
+      </div>
+      <div class="membership-card" id="silver-card">
+        <h3>Silver Membership</h3>
+        <p>Training & homepage spotlight ads.</p>
+        <a href="#silver-modal">View Benefits</a>
+      </div>
+      <div class="membership-card" id="gold-card">
+        <h3>Gold Membership</h3>
+        <p>All features + premium exposure.</p>
+        <a href="#gold-modal">View Benefits</a>
+      </div>
+    </section>
+
+    <!-- Modals -->
+    <div class="modal" id="np-modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <h2>NP Membership Benefits</h2>
+        <ul>
+          <li>Free listing</li>
+          <li>Event invitations</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="modal" id="bronze-modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <h2>Bronze Membership Benefits</h2>
+        <ul>
+          <li>Chamber events</li>
+          <li>Directory listing</li>
+          <li>Basic Ads</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="modal" id="silver-modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <h2>Silver Membership Benefits</h2>
+        <ul>
+          <li>Training access</li>
+          <li>Event discounts</li>
+          <li>Homepage spotlight</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="modal" id="gold-modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <h2>Gold Membership Benefits</h2>
+        <ul>
+          <li>All Silver features</li>
+          <li>Premium listings</li>
+          <li>Custom Ads</li>
+        </ul>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Chamber of Commerce</p>
+  </footer>
+
+  <script>
+    // Set timestamp value
+    document.getElementById('timestamp').value = new Date().toISOString();
+
+    // Modal handling
+    document.querySelectorAll('.membership-card a').forEach(link => {
+      link.addEventListener('click', e => {
+        e.preventDefault();
+        const modal = document.querySelector(link.getAttribute('href'));
+        modal.style.display = 'block';
+      });
+    });
+
+    document.querySelectorAll('.modal .close').forEach(btn => {
+      btn.addEventListener('click', () => {
+        btn.parentElement.parentElement.style.display = 'none';
+      });
+    });
+
+    window.addEventListener('click', e => {
+      if (e.target.classList.contains('modal')) {
+        e.target.style.display = 'none';
+      }
+    });
+  </script>
+</body>
+</html>
