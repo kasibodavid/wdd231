@@ -1,0 +1,15 @@
+[
+  {
+    "name": "National Museum",
+    "address": "123 Main St, City",
+    "description": "Explore historical artifacts and art.",
+    "image": "images/museum.webp"
+  },
+  {
+    "name": "City Park",
+    "address": "456 Greenway Blvd",
+    "description": "A beautiful park with trails and playgrounds.",
+    "image": "images/park.webp"
+  }
+  
+]

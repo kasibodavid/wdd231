@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Discoverpage for the Lagos Chamber of Commerce" />
+  <meta name="author" content="Kasibo David" />
+  <meta property="og:title" content="Lagos Chamber of Commerce Discover page" />
+  <meta property="og:description" content="Connect with top businesses and opportunities in Lagos." />
+  <meta property="og:url" content="https://your-github-username.github.io/wdd231/chamber/discover.html" />
+  <title>Discover Lagos | Chamber of Commerce</title>
+  <link rel="stylesheet" href="styles/base.css" />
+  <link rel="stylesheet" href="styles/discover.css" />
+  <script defer src="scripts/discover.js"></script>
+</head>
+<body>
+  <header>
+    <h1>Lagos Chamber of Commerce</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="discover.html" class="active">Discover</a></li>
+        <li><a href="directory.html">Directory</a></li>
+        <li><a href="join.html">Join</a></li>
+      </ul>
+    </nav>
+  </header>
+
+<main class="discover-grid">
+  <aside class="sidebar">
+    <div id="visit-message"></div>
+  </aside>
+  
+  <section class="gallery">
+    <!-- Cards will be injected here -->
+  </section>
+</main>
+
+  <footer>
+    <p>&copy; <span id="year"></span> Lagos Chamber of Commerce | Kasibo David | WDD 231</p>
+    <p>Last Modified: <span id="lastModified"></span></p>
+  </footer>
+
+  <script>
+    // Year and last modified script
+    document.getElementById("year").textContent = new Date().getFullYear();
+    document.getElementById("lastModified").textContent = document.lastModified;
+  </script>
+</body>
+</html>
