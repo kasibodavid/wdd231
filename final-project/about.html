@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>About — ExploreNaija Adventures</title>
+  <meta name="description" content="About ExploreNaija Adventures, our mission, team, and attributions." />
+  <meta name="author" content="ExploreNaija Adventures / Kasibo David"/>
+  <link rel="icon" href="favicon.ico" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <a class="brand" href="index.html">ExploreNaija</a>
+      <button id="nav-toggle" aria-expanded="false" aria-controls="main-nav">☰</button>
+      <nav id="main-nav" class="nav">
+        <a href="index.html">Home</a>
+        <a href="tours.html">Tours</a>
+        <a href="about.html">About</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <h1>About ExploreNaija Adventures</h1>
+    <p>We connect travelers to local experiences across Nigeria — nature hikes, cultural tours, and beach getaways.</p>
+
+    <h2 id="contact-h">Contact & Booking Form</h2>
+    <form method="POST" action="form-action.html" class="booking-form">
+      <label>Full Name: <input name="fullname" required></label>
+      <label>Email: <input type="email" name="email" required></label>
+      <label>Tour Interested In: <input name="tour"></label>
+      <label>Message: <textarea name="message"></textarea></label>
+      <button type="submit" class="btn">Submit</button>
+    </form>
+
+    <h2 id="attributions">Attributions</h2>
+    <p>Images and data sources credited here. (Add attributions you used.)</p>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year3"></span> ExploreNaija Adventures</p>
+      <p><a href="form-action.html">Form results</a></p>
+      <p><a href="#" id="video-link-3">Project demo video</a></p>
+    </div>
+  </footer>
+
+  <script type="module" src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Form Results — ExploreNaija</title>
+  <meta name="description" content="Form submission results." />
+  <link rel="icon" href="favicon.ico" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <main class="container">
+    <h1>Form Submission</h1>
+    <p>This page displays the submitted form data (for grading).</p>
+
+    <div id="results"></div>
+  </main>
+
+  <script>
+    // Simple client-side display of posted form data using URLSearchParams
+    const params = new URLSearchParams(window.location.search || window.location.hash.replace('#',''));
+    const results = document.getElementById('results');
+    if (params && [...params].length) {
+      const list = document.createElement('dl');
+      for (const [k,v] of params) {
+        const dt = document.createElement('dt'); dt.textContent = k;
+        const dd = document.createElement('dd'); dd.textContent = v;
+        list.append(dt,dd);
+      }
+      results.appendChild(list);
+    } else {
+      results.textContent = 'No data to show. (If using POST you can read server-side.)';
+    }
+  </script>
+</body>
+</html>

@@ -1,0 +1,19 @@
+{
+  "tours": [
+    {"id":1,"title":"Lagos City Highlights","location":"Lagos","duration":"1 day","price":12000,"rating":4.6,"description":"Explore Lagos markets, beaches, and cultural sites.","image":"images/lagos1.jpg"},
+    {"id":2,"title":"Lekki Nature & Beaches","location":"Lagos","duration":"1 day","price":10000,"rating":4.5,"description":"Relax on Lekki beaches and visit conservation centers.","image":"images/lagki_beach.jpg"},
+    {"id":3,"title":"Obudu Mountain Resort Escape","location":"Cross River","duration":"3 days","price":45000,"rating":4.9,"description":"Hike, cable car, and enjoy mountain scenery.","image":"images/obudu1.jpg"},
+    {"id":4,"title":"Calabar Cultural Tour","location":"Calabar","duration":"2 days","price":30000,"rating":4.7,"description":"Experience Efik culture and local cuisine.","image":"images/calabar1.jpg"},
+    {"id":5,"title":"Yankari Wildlife Adventure","location":"Bauchi","duration":"2 days","price":35000,"rating":4.8,"description":"Safari and wildlife viewing in Yankari.","image":"images/yankari1.jpg"},
+    {"id":6,"title":"Jos Plateau Hike","location":"Plateau","duration":"2 days","price":28000,"rating":4.6,"description":"Rock formations, waterfalls, and cool climate.","image":"images/jos1.jpg"},
+    {"id":7,"title":"Abuja City & Hills","location":"Abuja","duration":"1 day","price":15000,"rating":4.4,"description":"Visit Aso Rock, national landmarks, and markets.","image":"images/abuja1.jpg"},
+    {"id":8,"title":"Tinapa Business & Leisure","location":"Cross River","duration":"1 day","price":14000,"rating":4.3,"description":"Shopping, entertainment, and lakeside views.","image":"images/tinapa1.jpg"},
+    {"id":9,"title":"Benin History Walk","location":"Edo","duration":"1 day","price":12000,"rating":4.5,"description":"Explore Benin’s history and bronze artifacts.","image":"images/benin1.jpg"},
+    {"id":10,"title":"Sukur Cultural Landscape","location":"Taraba","duration":"3 days","price":42000,"rating":4.7,"description":"UNESCO site and traditional village visits.","image":"images/sukur1.jpg"},
+    {"id":11,"title":"Awhum Falls & Cave","location":"Enugu","duration":"1 day","price":13000,"rating":4.6,"description":"Visit scenic falls and caves.","image":"images/awhum1.jpg"},
+    {"id":12,"title":"Olumo Rock & Abeokuta","location":"Ogun","duration":"1 day","price":11000,"rating":4.4,"description":"Climb Olumo Rock and learn local history.","image":"images/olumo1.jpg"},
+    {"id":13,"title":"Idanre Hills Trek","location":"Ondo","duration":"2 days","price":26000,"rating":4.8,"description":"Ancient hills, stairways, and panoramic views.","image":"images/idanre1.jpg"},
+    {"id":14,"title":"Badagry Slave Route","location":"Lagos","duration":"1 day","price":9000,"rating":4.3,"description":"Educational historical tour along the slave route.","image":"images/badagry1.jpg"},
+    {"id":15,"title":"Eko Fest Weekend Experience","location":"Lagos","duration":"2 days","price":22000,"rating":4.5,"description":"Local festivals, music, and street food tour.","image":"images/ekofest1.jpg"}
+  ]
+}
